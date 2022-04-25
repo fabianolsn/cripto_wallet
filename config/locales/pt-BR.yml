@@ -1,0 +1,10 @@
+pt-BR:  
+  links: 
+    edit: "Editar"
+    delete: "Deletar"
+    show: "Mostrar"
+    new: "Novo"
+  labels:
+    description: "Descriçao"
+    acronym: "Sigla"
+
