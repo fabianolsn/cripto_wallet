@@ -1,0 +1,16 @@
+﻿'pt-BR':
+  actual_locale: "Portugues do Brasil"
+  activerecord:
+    models:
+      coin: Moedas
+      mining_type: Tipo de Mineracao
+    attributes:
+      coin:
+        id: Codigo
+        description: Descriçao
+        acronym: Sigla
+        url_image: URL da imagem
+      mining_type:
+        description: Descriçao
+        acronym: Sigla
+        mining_type: Tipo de Mineracao
