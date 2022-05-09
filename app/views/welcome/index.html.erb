@@ -1,6 +1,19 @@
+<<<<<<< HEAD
 <h1><%= cookies[:curso]%></h1>
 <h2><%= session[:curso]%></h2>
 <p><STRONG>DATA: </STRONG><%= I18n.l(Date.today)%></p>
+=======
+<p>
+<%= link_to 'Portugues', '/?locale=pt-BR'%>
+</p>
+
+<p>
+<%= link_to 'English', '/?locale=en'%>
+</p>
+
+
+<p><STRONG>DATA:</STRONG><%=t(Date.today)%></p>
+>>>>>>> 7d8022438b240903c440a064a6f49e74059b1d7f
 <h1>Seja Bem-Vindo</h1>
 <p>O idioma atual: <%= t('actual_locale')%></p>
 

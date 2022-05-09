@@ -30,12 +30,16 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+<<<<<<< HEAD
   es:
   time:
     formats:
       default: "%Y/%m/%d"
       short: "%b %d"
       long: "%B %d, %Y"
+=======
+  actual_locale: "English"
+>>>>>>> 7d8022438b240903c440a064a6f49e74059b1d7f
   hello: "Hello world"
   links: 
     edit: "Edit"
