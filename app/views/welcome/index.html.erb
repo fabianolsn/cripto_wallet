@@ -1,4 +1,6 @@
-<p><STRONG>DATA:</STRONG><%=t(Date.today)%></p>
+<h1><%= cookies[:curso]%></h1>
+<h2><%= session[:curso]%></h2>
+<p><STRONG>DATA: </STRONG><%= I18n.l(Date.today)%></p>
 <h1>Seja Bem-Vindo</h1>
 <p>O idioma atual: <%= t('actual_locale')%></p>
 
