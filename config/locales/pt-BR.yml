@@ -1,4 +1,7 @@
 'pt-BR':  
+  time:
+    formats:
+      default: "%d/%m/%Y"
   links: 
     actual_locale: "Portugues do Brasil"
     edit: "Editar"
@@ -8,4 +11,9 @@
   labels:
     description: "Descriçao"
     acronym: "Sigla"
+  date:
+    formats:
+      default: "%d/%m/%Y"
+      short: "%d de %B"
+      long: "%d de %B de %Y"
 
